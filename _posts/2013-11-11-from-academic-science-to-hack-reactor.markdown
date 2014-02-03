@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From academic science to hack reactor"
+title:  "From academic science to Hack Reactor"
 date:   2013-11-11 09:22:38
 categories:
 ---

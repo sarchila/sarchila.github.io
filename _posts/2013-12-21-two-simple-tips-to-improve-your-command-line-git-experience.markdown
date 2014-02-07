@@ -2,6 +2,7 @@
 layout: post
 title:  "Two simple tips to improve your command-line git experience"
 date:   2013-12-21 20:13:53
+description: "I wanted to put together a post with a couple of simple modifications you can make to your .gitconfig file that will improve readability when viewing changes to files in your Git working directory."
 ---
 
 I wanted to put together a post with a couple of simple modifications you can make to your .gitconfig file that will improve readability when viewing changes to files in your Git working directory. By default, when you are in a Git working directory and you type

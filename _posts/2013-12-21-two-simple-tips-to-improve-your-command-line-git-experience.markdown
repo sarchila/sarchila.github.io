@@ -5,9 +5,10 @@ date:   2013-12-21 20:13:53
 ---
 
 I wanted to put together a post with a couple of simple modifications you can make to your .gitconfig file that will improve readability when viewing changes to files in your Git working directory. By default, when you are in a Git working directory and you type
-
-<code>git diff</code>
-
+<br/>
+<br/>
+<pre><code>git diff</code></pre>
+<br/>
 in the command-line, you will see something like this:
 
 ![No Color](/img/2013-12-21-nocolor.png)
@@ -17,15 +18,17 @@ where changes are denoted on the left with or minus representing a line that has
 # Pop of color
 
 A simple fix is to enable colors on the command-line by modifying your .gitconfig file (which should be located in your home directory).  To open it, simply type this in the terminal:
-
-<code>open ~/.gitconfig</code>
-
+<br/>
+<br/>
+<pre><code>open ~/.gitconfig</code></pre>
+<br/>
 Once open, insert these two lines in the file:
-
+<br/>
+<br/>
 <pre><code>[color]
   ui = true
 </code></pre>
-
+<br/>
 After that, the next time we type <code>git diff</code> in a Git working directory, we can see changes much more readily with a colorized UI.
 
 ![Color](/img/2013-12-21-color.png)
@@ -35,16 +38,18 @@ Now, deleted lines are shown in red and appended lines are in green, which to me
 # Opendiff and FileMerge
 
 Another really helpful way to visualize changes made to you Git working directory (if you're on Mac OSX) is to use opendiff and FileMerge. Both tools should already be on your system if you've installed Xcode. To set these tools as your default 'difftool' viewer, go back into your .gitconfig file and append these lines:
-
+<br/>
+<br/>
 <pre><code>[diff]
  tool = opendiff
 [difftool]
  prompt = false</code></pre>
-
+<br/>
 After that simple change, if you type
-
-<code>git difftool</code>
-
+<br/>
+<br/>
+<pre><code>git difftool</code></pre>
+<br/>
 in the terminal, it should run opendiff which will open the FileMerge GUI. In FileMerge, the old version of each file is shown in the top left (pre-change) and the current version is in the top right (post-change).  The final version is shown in the bottom panel with new changes highlighted in blue.
 
 ![OSX FileMerge](/img/2013-12-21-opendiff_filemerge.png)

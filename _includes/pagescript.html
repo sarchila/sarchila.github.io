@@ -1,12 +1,12 @@
-<script src="{{site.url}}/assets/js/jquery-1.10.2.js"></script>
-<script src="{{site.url}}/assets/js/simpleJekyllSearch.js"></script>  
+<script src="/assets/js/jquery-1.10.2.js"></script>
+<script src="/assets/js/simpleJekyllSearch.js"></script>  
 
 <script type="text/javascript">
     /* Jekyll Simple Search option */
 
     $(document).ready(function() {
         $('.search-field').simpleJekyllSearch({
-            jsonFile: '{{site.url}}/search.json',
+            jsonFile: '/search.json',
             searchResults: '.search-results',
             template: '<li><a href="{url}"><time datetime="{date}">{shortdate}</time> &mdash; {title}</a></li>',
             noResults: '<p>Nothing found.</p>'

@@ -1,7 +1,7 @@
 name: SA
 title: Santiago Archila
 description: "Santiago Archila - Software Engineer | Neuroscientist"
-url: "http://localhost:4000"
+url: "http://sarchila.github.io"
 
 port: 4000
 pygments: true

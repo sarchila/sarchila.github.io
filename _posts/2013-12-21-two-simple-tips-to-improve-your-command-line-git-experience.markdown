@@ -6,10 +6,9 @@ description: "I wanted to put together a post with a couple of simple modificati
 ---
 
 I wanted to put together a post with a couple of simple modifications you can make to your .gitconfig file that will improve readability when viewing changes to files in your Git working directory. By default, when you are in a Git working directory and you type
-<br/>
-<br/>
-<pre><code>git diff</code></pre>
-<br/>
+{% highlight javascript %}
+git diff
+{% endhighlight %}
 in the command-line, you will see something like this:
 
 ![No Color](/img/2013-12-21-nocolor.png)

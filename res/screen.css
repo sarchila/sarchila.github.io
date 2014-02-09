@@ -362,9 +362,7 @@ div.post iframe[width="640"] {
     zoom:0.87;
 }
 
-
 /* prettyprint */
-pre { color:black; }
 pre .str { color: #080; }
 pre .kwd { color: #f92672; font-weight: 500; }
 pre .com { color: #999; font-style: italic; }
